@@ -1,0 +1,21 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 6px;
+  margin: 50% auto;
+  border: 3px solid white;
+  border-radius: 7px;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
+.button:hover {
+  background: black;
+}
